@@ -17,11 +17,12 @@ namespace QueSeraSera
         public List<int> AttemptedPattern = new List<int>();
         public int RoundNumber = 0;
         public int difficulty = 500;
+        public bool gameOn = false;
 
         public Form1()
         {
             InitializeComponent();
-            BuildPattern();
+            //BuildPattern();
         }
 
         public void BuildPattern()
@@ -44,7 +45,9 @@ namespace QueSeraSera
 
         private void BeginClicked(object sender, EventArgs e)
         {
+            BuildPattern();
             PlayPattern();
+            gameOn = true;
         }
 
         public async void PlayPattern()
@@ -86,9 +89,12 @@ namespace QueSeraSera
         
         private void ButtonClicked(object sender, EventArgs e)
         {
-            Button thisBtn = (Button)sender;
-            AttemptedPattern.Add(thisBtn.TabIndex);
-            CheckPattern();
+            if (gameOn == true)
+            {
+                Button thisBtn = (Button)sender;
+                AttemptedPattern.Add(thisBtn.TabIndex);
+                CheckPattern();
+            }
         }
 
         public async void CheckPattern()
@@ -99,6 +105,7 @@ namespace QueSeraSera
                 if (BuiltPattern[i] != AttemptedPattern[i])
                 {
                     MessageBox.Show($"Game over, Highscore of {RoundNumber} rounds");
+                    gameOn = false;
                     return;
                 }
             }

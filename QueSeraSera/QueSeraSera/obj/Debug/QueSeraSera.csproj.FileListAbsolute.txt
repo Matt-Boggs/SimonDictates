@@ -1,0 +1,10 @@
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\bin\Debug\QueSeraSera.exe.config
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\bin\Debug\QueSeraSera.exe
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\bin\Debug\QueSeraSera.pdb
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\obj\Debug\QueSeraSera.csprojAssemblyReference.cache
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\obj\Debug\QueSeraSera.Form1.resources
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\obj\Debug\QueSeraSera.Properties.Resources.resources
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\obj\Debug\QueSeraSera.csproj.GenerateResource.cache
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\obj\Debug\QueSeraSera.csproj.CoreCompileInputs.cache
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\obj\Debug\QueSeraSera.exe
+C:\Users\mattb.SENTINELSYSTEMS\source\repos\QueSeraSera\QueSeraSera\obj\Debug\QueSeraSera.pdb
